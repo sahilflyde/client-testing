@@ -1,0 +1,390 @@
+{
+  "name": "home",
+  "route": "home",
+  "components": [
+    {
+      "type": "header-sec",
+      "props": {
+        "logo": "https://ik.imagekit.io/flyde/Hirezy/Logo.png",
+        "navLinks": [
+          {
+            "name": "Home",
+            "href": "/"
+          }
+        ],
+        "ctaText": "Demo Button",
+        "ctaLink": ""
+      },
+      "children": []
+    },
+    {
+      "type": "hero-section",
+      "props": {
+        "heading": "Simplify Hiriang.... Empower Growth",
+        "description": "Hirezy streamlines your recruitment process with smart tools, intuitive dashboards, and seamless integrations, helping you connect with top talent faster.",
+        "primaryBtnText": "Get Started 1",
+        "primaryBtnLink": "#",
+        "secondaryBtnText": "Learn More",
+        "secondaryBtnLink": "#",
+        "mainImage": "https://ik.imagekit.io/flyde/Hirezy/Widget.png",
+        "leftImage": "https://ik.imagekit.io/flyde/Hirezy/Widget%20(2).png",
+        "rightImage": "https://ik.imagekit.io/flyde/Hirezy/Widget%20(1).png"
+      },
+      "children": []
+    },
+    {
+      "type": "target-audience",
+      "props": {
+        "label": "Target Audience",
+        "title": "Built for Every Hiring Team",
+        "subtitle": "Whether you’re a startup or a global enterprise, Hirezy adapts to your hiring needs.",
+        "columns": 3,
+        "gap": 30,
+        "minColWidth": 320,
+        "items": [
+          {
+            "heading": "HR Teams",
+            "description": "Simplify day-to-day hiring tasks.",
+            "imageLink": "https://placehold.co/600x400",
+            "textPosition": "bottom"
+          },
+          {
+            "heading": "Growing Business",
+            "description": "Grow your team fast.",
+            "imageLink": "https://placehold.co/600x400",
+            "textPosition": "bottom"
+          },
+          {
+            "heading": "Recruitment Agencies",
+            "description": "Manage multiple clients.",
+            "imageLink": "https://placehold.co/600x400",
+            "textPosition": "bottom"
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "type": "grid-video",
+      "props": {
+        "label": "About",
+        "title": "Discover Hirezy",
+        "subtitle": "From intuitive, user-friendly tools to advanced integrations with the platforms you already use, Hirezy streamlines the hiring journey so your team can focus on what matters most: finding and securing the right talent.",
+        "centerTitle": "center",
+        "videoSrc": "https://ik.imagekit.io/a9uxeuyhx/5439079-uhd_3840_2160_25fps.mp4?updatedAt=1762022380391"
+      },
+      "children": []
+    },
+    {
+      "type": "why-choose",
+      "props": {
+        "title": "Why Choose Us ?",
+        "label": "Benefits",
+        "description": "Built with recruiters to provide the tools they need — helping them find trhe right talent faster.",
+        "buttonText": "Start Now",
+        "features": [
+          {
+            "icon": "https://ik.imagekit.io/75zj3bigp/Icon%20(3).png?updatedAt=176208359666",
+            "title": "Secure & Compliant",
+            "desc": "Enterprise-level security and compliance standards to protect sensitive hiring data."
+          },
+          {
+            "icon": "https://ik.imagekit.io/icons/2.png",
+            "title": "User Friendly",
+            "desc": "Clean interface and intuitive workflows that keep your team productive."
+          },
+          {
+            "icon": "",
+            "title": "Demo description",
+            "desc": "Demo description"
+          },
+          {
+            "icon": "",
+            "title": "Demo description",
+            "desc": "Demo description"
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "type": "feature-section",
+      "props": {
+        "label": "Our Features",
+        "title": "Why Choose Us",
+        "subtitle": "We provide amazing services",
+        "minColWidth": 280,
+        "gap": 24,
+        "columns": 3,
+        "centerTitle": false,
+        "desktopOrder": [
+          0,
+          1,
+          2
+        ],
+        "items": [
+          {
+            "heading": "Fast Performance",
+            "description": "Our app is blazing fast.",
+            "imageLink": "https://ik.imagekit.io/default1.png",
+            "textPosition": "bottom",
+            "rowSpan": 1,
+            "colSpan": 1
+          },
+          {
+            "heading": "Secure",
+            "description": "Your data is safe.",
+            "imageLink": "https://ik.imagekit.io/default2.png",
+            "textPosition": "bottom",
+            "rowSpan": 1,
+            "colSpan": 1
+          },
+          {
+            "heading": "24/7 Support",
+            "description": "We are always there for you.",
+            "imageLink": "https://ik.imagekit.io/default3.png",
+            "textPosition": "bottom",
+            "rowSpan": 1,
+            "colSpan": 1
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "type": "transform-section",
+      "props": {
+        "title": "Transform Your Hiring",
+        "desc": "Build amazing hiring workflows with ease.",
+        "btnText": "Get Started",
+        "btnIcon": "https://ik.imagekit.io/icons/arrow-right.png",
+        "bgImage": "https://placehold.co/1200x600",
+        "buttonLink": "#"
+      },
+      "children": []
+    },
+    {
+      "type": "metrics-section",
+      "props": {
+        "title": "Our Achievements",
+        "subtitle": "Here are some cool numbers",
+        "centerTitle": true,
+        "metrics": [
+          {
+            "number": "20K",
+            "label": "Successful Hires"
+          },
+          {
+            "number": "500+",
+            "label": "Teams Worldwide"
+          },
+          {
+            "number": "50k",
+            "label": "Seamless Integration"
+          },
+          {
+            "number": "95%",
+            "label": "Customer Satisfaction"
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "type": "integration-section",
+      "props": {
+        "label": "Integrations",
+        "title": "Connect Your Favorite Tools",
+        "subtitle": "Integrate your workflow with popular platforms",
+        "items": [
+          {
+            "name": "Slack",
+            "icon": "https://placehold.co/64x64"
+          },
+          {
+            "name": "Notion",
+            "icon": "https://placehold.co/64x64"
+          },
+          {
+            "name": "Trello",
+            "icon": "https://placehold.co/64x64"
+          }
+        ],
+        "isMobile": false,
+        "isIpad": false
+      },
+      "children": []
+    },
+    {
+      "type": "pricing-section",
+      "props": {
+        "label": "Pricing",
+        "title": "Simple, Transparent Pricing",
+        "subtitle": "Choose a plan that fits your needs.",
+        "items": [
+          {
+            "planName": "Starter",
+            "description": "Best for individuals & small teams.",
+            "price": "19",
+            "tag": "Popular",
+            "iconSrc": "https://placehold.co/64x64",
+            "variant": "blue",
+            "features": [
+              {
+                "text": "5 Team Members"
+              },
+              {
+                "text": "Basic Support"
+              },
+              {
+                "text": "Core Features Access"
+              }
+            ]
+          },
+          {
+            "planName": "Pro",
+            "description": "Perfect for growing startups.",
+            "price": "49",
+            "tag": "",
+            "iconSrc": "https://placehold.co/64x64",
+            "variant": "purple",
+            "features": [
+              {
+                "text": "Unlimited Members"
+              },
+              {
+                "text": "Priority Support"
+              },
+              {
+                "text": "Advanced Integrations"
+              }
+            ]
+          },
+          {
+            "planName": "Enterprise",
+            "description": "For large organizations & enterprises.",
+            "price": "99",
+            "tag": "Best Value",
+            "iconSrc": "https://placehold.co/64x64",
+            "variant": "gold",
+            "features": [
+              {
+                "text": "Dedicated Manager"
+              },
+              {
+                "text": "Custom Integrations"
+              },
+              {
+                "text": "SLA Support"
+              }
+            ]
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "type": "faq-section",
+      "props": {
+        "label": "FAQ",
+        "title": "Frequently Asked Questions",
+        "subtitle": "Find answers to common questions.",
+        "items": [
+          {
+            "question": "What is your refund policy?",
+            "answer": "We offer a 30-day no-questions-asked refund."
+          },
+          {
+            "question": "Can I upgrade my plan later?",
+            "answer": "Yes, you can upgrade anytime without losing data."
+          },
+          {
+            "question": "Do you offer customer support?",
+            "answer": "Yes, we offer 24/7 premium support."
+          }
+        ],
+        "ctaTitle": "Got more questions?",
+        "ctaDescription": "Get in touch and we’ll take care of the rest.",
+        "ctaButtonText": "Contact Us",
+        "ctaButtonLink": "/contact-us"
+      },
+      "children": []
+    },
+    {
+      "type": "testimonials-section",
+      "props": {
+        "label": "Testimonials",
+        "title": "What Our Users Say",
+        "subtitle": "Companies love the experience.",
+        "items": [
+          {
+            "companyLogo": "https://placehold.co/100x40",
+            "quote": "Amazing platform!",
+            "details": "Our hiring speed doubled after using this tool.",
+            "name": "John Doe",
+            "role": "VP HR at BlueOcean",
+            "imageSrc": "https://placehold.co/600x900"
+          },
+          {
+            "companyLogo": "https://placehold.co/100x40",
+            "quote": "Game changer.",
+            "details": "Our entire workflow became smoother.",
+            "name": "Sophia Lee",
+            "role": "Director at InnovateX",
+            "imageSrc": "https://placehold.co/600x900"
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "type": "footer-section",
+      "props": {
+        "logo": "https://placehold.co/100x40",
+        "description": "This is a sample footer description.",
+        "socials": [
+          {
+            "name": "Facebook",
+            "href": "#"
+          },
+          {
+            "name": "Twitter",
+            "href": "#"
+          },
+          {
+            "name": "LinkedIn",
+            "href": "#"
+          }
+        ],
+        "quickLinks": [
+          {
+            "name": "Home",
+            "href": "/"
+          },
+          {
+            "name": "About",
+            "href": "/about"
+          },
+          {
+            "name": "Services",
+            "href": "/services"
+          }
+        ],
+        "contacts": [
+          {
+            "text": "+91 9876543210",
+            "icon": "https://placehold.co/16x16"
+          },
+          {
+            "text": "info@example.com",
+            "icon": "https://placehold.co/16x16"
+          }
+        ],
+        "subscribeTitle": "Subscribe to our newsletter",
+        "subscribeSubtitle": "Get the latest updates and offers.",
+        "copyright": "© 2025 Your Company. All rights reserved."
+      },
+      "children": []
+    }
+  ]
+}
